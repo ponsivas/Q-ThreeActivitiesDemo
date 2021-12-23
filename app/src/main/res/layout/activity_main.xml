@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="firstStrong"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/CREATOR"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/SA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="135dp"
+        android:background="@color/teal_700"
+        android:text="@string/YFA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TA"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="176dp"
+        android:background="@color/teal_700"
+        android:text="@string/ADA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TA" />
+
+    <Button
+        android:id="@+id/SA"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="66dp"
+        android:text="@string/SSA"
+        app:layout_constraintBottom_toTopOf="@+id/TA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/TA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="87dp"
+        android:text="@string/STA"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SA" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

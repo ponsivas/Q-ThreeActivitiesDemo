@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActivitiesDemo!</string>
+    <string name="ADA">3 Activities Demo App</string>
+    <string name="SAD">Second Activity is in Display</string>
+    <string name="TAD">Third Activity is in Display</string>
+    <string name="SSA">Show Second Activity</string>
+    <string name="STA">Show Third Activity</string>
+    <string name="SFA">Show First Activity</string>
+    <string name="YFA">You are in First Activity</string>
+    <string name="CREATOR">App by Dr. P. Sivaram</string>
+</resources>
